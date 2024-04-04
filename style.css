@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(26,26,28);
+    height: 100vh;
+    color: rgb(222,222,222);
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    color: white;
+}
+.search{
+    background: transparent;
+    border: 1px solid rgb(183, 183, 186);
+    width: 60%;
+    flex: 8;
+    margin-right: 2%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    padding-left: 10px;
+}
+.button{
+    background: transparent;
+    border: 1px solid rgb(183, 183, 186);
+    color: rgb(222,222,222);
+    flex: 2;
+    margin-right: 2%;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+::-webkit-input-placeholder { 
+    color: #999; 
+    font-style: italic; 
+    padding-left: 3%;
+ }
+ .data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4px;
+    padding: 20px;
+    /* background-color: rgb(38, 38, 40);  */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+ .imagecontainer{
+    display: flex;
+ }
+ 
+ .underline{
+    border-bottom: 1px solid rgb(215,215,215); 
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+}
+ .cryptoimage{
+   height: 20px;
+   margin-right: 5px;
+ }
+ .name_container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+ }
+ 
